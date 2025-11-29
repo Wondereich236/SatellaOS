@@ -23,6 +23,9 @@ sudo apt install --no-install-recommends -y \
   xfce4-terminal \
   xfce4-whiskermenu-plugin \
   xfce4-screensaver \
+  vlc \
+  grub-customizer \
+  qbittorrent \
   thunar \
   mousepad \
   engrampa \
@@ -49,17 +52,17 @@ sudo apt install --no-install-recommends -y \
 
 # İnternet Tarayıcısı
 echo "İnternet Tarayıcısı Kuruluyor..."
-sudo apt install firefox-esr -y
+sudo apt install --no-install-recommends -y firefox-esr
 
 # Xfce Özelleştirme
 echo "Xfce Özelleştirme Kuruluyor..."
-sudo apt install -y \
+sudo apt install --no-install-recommends -y \
   menulibre \
-  yad-icon-browser
+  yad
 
 # Asya Ülkeleri Fontları
 echo "Asya Ülkeleri Fontları Kuruluyor..."
-sudo apt install -y \
+sudo apt install --no-install-recommends -y \
   fonts-nanum \
   fonts-unfonts-core \
   fonts-ipafont-mincho \
@@ -72,22 +75,22 @@ sudo apt install -y \
 
 # Politika yöneticileri
 echo "Politika yöneticileri kuruluyor..."
-sudo apt install -y \
+sudo apt install --no-install-recommends -y \
   ukui-polkit \
   polkitd \
   pkexec
 
 # Disk Araçları
 echo "Disk Araçları kuruluyor..."
-sudo apt install -y gnome-disk-utility
+sudo apt install --no-install-recommends -y gnome-disk-utility
 
 # Karakter Haritaları
 echo "Karakter Haritaları kuruluyor..."
-sudo apt install -y gucharmap
+sudo apt install --no-install-recommends -y gucharmap
 
 # Fotoğraf Görüntüleyici Yamaları
 echo "Fotoğraf Görüntüleyici Yamaları kuruluyor..."
-sudo apt install -y \
+sudo apt install --no-install-recommends -y \
   ristretto \
   libwebp7 \
   tumbler \
@@ -96,8 +99,12 @@ sudo apt install -y \
 
 # Tema ve Simge Paketleri
 echo "Tema ve Simge Paketleri kuruluyor..."
-sudo apt install -y \
+sudo apt install --no-install-recommends -y \
   adwaita-qt \
   gnome-themes-extra
+
+# Flatpak ve Flathub
+echo "Flatpak ve Flathub kuruluyor..."
+sudo apt install -y flatpak && flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 echo "Kurulum tamamlandı. Sistemi yeniden başlatmanız önerilir."
