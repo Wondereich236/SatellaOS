@@ -101,7 +101,8 @@ sudo apt install --no-install-recommends -y \
 echo "Tema ve Simge Paketleri kuruluyor..."
 sudo apt install --no-install-recommends -y \
   adwaita-qt \
-  gnome-themes-extra
+  gnome-themes-extra \
+  bibata-cursor-theme
 
 # Flatpak ve Flathub
 echo "Flatpak ve Flathub kuruluyor..."
