@@ -65,7 +65,8 @@ EOF'
 
 echo "unrar (nonfree) Kuruluyor..."
 
-wget -qO /tmp/unrar.deb http://ftp.debian.org/debian/pool/non-free/u/unrar-nonfree/unrar_7.2.2-1_amd64.deb && sudo apt install -y /tmp/unrar.deb
+wget -qO /tmp/unrar_7.2.2-1_amd64.deb http://ftp.debian.org/debian/pool/non-free/u/unrar-nonfree/unrar_7.2.2-1_amd64.deb && sudo apt install -y /tmp/unrar_7.2.2-1_amd64.deb
+
 
 # İnternet Tarayıcısı
 echo "İnternet Tarayıcısı Kuruluyor..."
