@@ -11,6 +11,7 @@ sudo apt install --no-install-recommends -y \
   xfce4-clipman \
   xfce4-clipman-plugin \
   xfce4-datetime-plugin \
+  xfce4-docklike-plugin \
   xfce4-indicator-plugin \
   xfce4-panel \
   xfce4-panel-profiles \
