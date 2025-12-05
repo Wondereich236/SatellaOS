@@ -75,7 +75,7 @@ sudo apt install --no-install-recommends -y menulibre
 
 # Asya Ülkeleri Fontları
 echo "Asya Ülkeleri Fontları Kuruluyor..."
-sudo apt install --no-install-recommends -y \
+sudo apt install -y \
   fonts-nanum \
   fonts-unfonts-core \
   fonts-ipafont-mincho \
@@ -84,7 +84,8 @@ sudo apt install --no-install-recommends -y \
   fonts-noto-cjk \
   fonts-wqy-zenhei \
   fonts-arphic-ukai \
-  fonts-arphic-uming
+  fonts-arphic-uming \
+  fonts-noto-color-emoji
 
 # Politika yöneticileri
 echo "Politika yöneticileri kuruluyor..."
