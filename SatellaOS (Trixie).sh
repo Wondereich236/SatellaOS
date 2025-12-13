@@ -86,7 +86,7 @@ sudo apt install -y \
   fonts-wqy-zenhei \
   fonts-arphic-ukai \
   fonts-arphic-uming \
-  fonts-noto-color-emoji
+  fonts-noto-color-emoji \
   fonts-noto \
   fonts-noto-extra \
   fonts-symbola \
